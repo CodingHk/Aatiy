@@ -1,0 +1,300 @@
+body {
+    margin: 0px;
+}
+
+/* Styles for header */
+header {
+    margin: 0;
+    background-color: #9BA8AB;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: -webkit-body;
+    width: 100%;
+}
+
+.headline {
+    margin-left: 15px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img {
+    max-height: 50px;
+    max-width: 56px; /* Adjust the height of the logo as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FAFAFF;
+}
+
+nav ul li.active {
+    color: aqua;
+}
+
+.cta-button {
+    background-color: #11212D;
+    color: #CCD0CF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.cta-button:hover {
+    background-color: #CCD0CF;
+    color: #06141B;
+}
+
+footer {
+    background-color: #9BA8AB;
+    padding: 20px; /* Add padding for better appearance */
+    text-align: center;   
+}
+
+footer ul {
+    list-style-type: none; /* Remove bullets from the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+footer ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+footer ul li a {
+    color: black; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Styles for hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styles for other sections */
+.about {
+    padding: 70px 0;
+    display: flex;
+    height: 100vh; /* Adjust height as needed */
+    align-content: center;
+    justify-content: center; /* Align to the start of the container */
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+
+.about-card {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h2 {
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    margin: 0;
+}
+
+.services {
+    padding: 30px 0;
+    display: flex;
+    height: 100vh; /* Adjust height as needed */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.service-card {
+    flex: 0 1 calc(50% - 20px);
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Set service card as flex container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.service-card h2 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    margin: 0;
+    text-align: center; /* Center text */
+}
+
+
+.contact {
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column; /* Change direction to column */
+    height: auto; /* Remove fixed height */
+    align-items: center; /* Align items to center horizontally */
+    justify-content: flex-start; /* Align items to start vertically *
+}
+
+/* Styles for form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #CCD0CF;
+    color: #06141B;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.company-value ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.company-value ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.contact_header {
+    text-align: center;
+    margin-top: 100px; /* Adjust this value as needed */
+}
+
+.centered-container {
+    justify-content: center;
+    align-items: center; /* To vertically center the content */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styles for contact sections */
+.contact-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* To vertically center the sections */
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.contact-section {
+    width: 30%; /* Adjust as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-section h3 {
+    margin-bottom: 10px;
+}
+
+/* Add space for icons */
+.contact-section p {
+    margin-bottom: 20px;
+}
+
+/* Styles for summary section */
+.summary-section {
+    flex: 0 1 calc(50% - 20px);
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Set service card as flex container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.summary-content {
+    vertical-align: middle;
+    flex: 0 1 calc(50% - 20px);
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Set service card as flex container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.summary-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.summary-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styles for service cards section */
+.service-cards {
+    display: table;
+    width: 50%; /* Set width to 50% to display side by side */
+    float: left; /* Float the service cards section to the left */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.service-card {
+    display: table-cell;
+    vertical-align: top; /* Align service cards to the top */
+    width: 25%; /* Set width to 25% to display four cards side by side */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.service-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #666;
+}
