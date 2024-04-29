@@ -6,7 +6,7 @@ body {
 header {
     margin: 0;
     background-color: #9BA8AB;
-    padding: 8px;
+    padding: 27px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +48,8 @@ nav ul li a {
     font-size: 16px;
     cursor: pointer;
     border-radius: 16px;
+    margin-left: 45px; /* Adjust the value to move the logo to the right */
+    margin-right: 45px;
 }
 
 .cta-button:hover {
@@ -62,6 +64,7 @@ nav ul li a {
     align-items: center; 
     margin: 0 auto; /* Center horizontally */
     position: relative;
+    padding: 45px;
 }
 
 .container .card {
@@ -190,13 +193,14 @@ i {
 
 footer {
     background-color: #9BA8AB;
-    padding: 30px; /* Add padding for better appearance */
-    text-align: center;   
+    padding: 27px; /* Add padding for better appearance */
+    text-align: center;
+    margin: 0; /* Remove right margin */
+    width: 100%; /* Ensure footer spans the full width of the page */
 }
 
 footer ul {
     list-style-type: none; /* Remove bullets from the list */
-    margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
 
@@ -206,6 +210,6 @@ footer ul li {
 }
 
 footer ul li a {
-    color: black; /* Set text color to white */
+    color: black; /* Set text color to black */
     text-decoration: none; /* Remove underline from links */
 }
