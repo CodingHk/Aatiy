@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Fintech Company</title>
+    <link rel="stylesheet" href="style/contact.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="headline">Aatiy.</h1>
+        </div>
+        <div class="container-home">
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button class="cta-button">Get Started</button>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="icon">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <h3>
+                        <a href="https://www.linkedin.com/in/moniaar15/" target="_blank">Omnia Ahmed Abd-Algader</a>
+                    </h3>
+                    <p>This is where we network and build our professional protfolio, you can see all our actvities here.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="icon">
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <h3>
+                        <a href="https://twitter.com/Moniaar_" target="_blank">@Moniaar_</a>
+                    </h3>
+                    <p>This is where we read news, have fun communiacting with fellow developers, and network with different social groups.
+                    You can reach out and have a chat with us right away!</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="icon">
+                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <h3>
+                        <a href="https://github.com/CodingHk" target="_blank">CodingHk</a>
+                    </h3>
+                    <p>This is where we share code officially and work on projects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Select the element to animate
+    const contactHeader = document.querySelector('.contact_header');
+
+    // Define the animation
+    anime({
+        targets: contactHeader,
+        opacity: [0, 1], // From 0 to 1 opacity
+        duration: 1000, // Animation duration in milliseconds
+        easing: 'easeInOutQuad' // Easing function
+    });
+    </script>
+
+    <footer>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p>&copy; 2024 Aatiy. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
