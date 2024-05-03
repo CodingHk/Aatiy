@@ -188,15 +188,17 @@ footer ul li a {
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(202 239 230);
 }
 
 .about-card h2 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .about-card p {
     margin: 0;
+    text-align: center;
 }
 
 .services {
@@ -212,7 +214,7 @@ footer ul li a {
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(202 239 230);
     display: flex; /* Set service card as flex container */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center horizontally */
@@ -308,7 +310,7 @@ button[type="submit"] {
     margin-bottom: 20px;
 }
 
-/* Styles for summary section */
+
 .summary-section {
     flex: 0 1 calc(50% - 20px);
     padding: 20px;
@@ -373,7 +375,8 @@ button[type="submit"] {
     font-size: 14px;
     color: #666;
 }
-    
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .scrollDist{
