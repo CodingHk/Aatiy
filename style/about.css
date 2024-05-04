@@ -185,27 +185,6 @@ a:hover {
     margin-bottom: 5px;
 }
 
-footer {
-    padding: 20px; /* Add padding for better appearance */
-    text-align: center;   
-}
-
-footer ul {
-    list-style-type: none; /* Remove bullets from the list */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-}
-
-footer ul li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Add some spacing between list items */
-}
-
-footer ul li a {
-    color: black; /* Set text color to white */
-    text-decoration: none; /* Remove underline from links */
-}
-
 /* Styles for hero section */
 .hero {
     text-align: center;
