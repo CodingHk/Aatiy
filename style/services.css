@@ -174,23 +174,20 @@ footer ul li a {
 
 
 .summary-section {
-    flex: 0 1 calc(50% - 20px);
     padding: 16px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
+    background-color: #ffffff00;
     display: flex; /* Set service card as flex container */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center horizontally */
     width: 70%;
-    margin-left: 97px;
+    margin-left: 123px;
     margin-top: 67px;
 }
 
 .summary-content {
     vertical-align: middle;
-    flex: 0 1 calc(50% - 20px);
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0);
     display: flex; /* Set service card as flex container */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center horizontally */
@@ -231,10 +228,12 @@ footer ul li a {
     font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
+    margin-top: 10%;
 }
 
 .service-card p {
     font-size: 14px;
     color: #666;
     text-align: center;
+    margin-top: 12%;
 }
