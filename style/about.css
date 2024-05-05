@@ -185,6 +185,13 @@ a:hover {
     margin-bottom: 5px;
 }
 
+
+footer {
+    padding: 20px; /* Add padding for better appearance */
+    text-align: center;
+    margin-top: 118px;   
+}
+
 /* Styles for hero section */
 .hero {
     text-align: center;
