@@ -10,6 +10,7 @@ body, h1, h2, p, ul, li {
     justify-content: space-around;
     align-items: flex-start;
     padding: 20px;
+    margin-top: 152px;
   }
   
   /* Styling individual feature boxes */
@@ -59,8 +60,8 @@ body, h1, h2, p, ul, li {
 
 footer {
   text-align: center;
-  bottom: 0;
-  position: fixed;
   width: 100%;
+  margin-top: 117px;
+  padding: 20px; 
 
 }
