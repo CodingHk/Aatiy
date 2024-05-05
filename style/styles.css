@@ -11,6 +11,18 @@ body {
     background-attachment: fixed;
 }
 
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens (e.g., smartphones) */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for medium screens (e.g., tablets) */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for large screens (e.g., desktops) */
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 0%;
@@ -80,7 +92,7 @@ header {
     justify-content: space-between;
     align-items: center;
     font-family: -webkit-body;
-    width: 100%;
+    width: 99%;
 }
 
 .headline {
@@ -142,7 +154,8 @@ a:hover {
 
 footer {
     padding: 20px; /* Add padding for better appearance */
-    text-align: center;   
+    text-align: center;
+    margin-top: 118px;   
 }
 
 footer ul {
