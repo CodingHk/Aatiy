@@ -9,16 +9,14 @@
 }
 
 .logo {
-    background-color: #11212d;
     text-decoration: none;
+    background-color: #11212d;
     margin: 0;
-    height: 100%;
-    text-align: center;
     font-size: 32px;
     color: #000000; /* Changes the color */
 }
 
-.logo a {
+.logo a h1{
     text-decoration: none;
     color: white;
     font-size: 70px;
