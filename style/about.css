@@ -1,3 +1,11 @@
+/* Override the visibility rule */
+.__web-inspector-hide-shortcut__,
+.__web-inspector-hide-shortcut__ *,
+.__web-inspector-hidebefore-shortcut__::before,
+.__web-inspector-hideafter-shortcut__::after {
+    visibility: visible !important;
+}
+
 body {
 /* This one is on testing phase
     margin: 0px;
@@ -9,6 +17,40 @@ body {
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+}
+
+/* Styles for header */
+header {
+    visibility: visible !important;
+    margin: 0;
+    background-color: #9ba8ab52;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: -webkit-body;
+    width: 99%;
+}
+
+.headline {
+    visibility: visible !important;
+    text-decoration: none;
+}
+
+.logo a {
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 18%;
+    height: 100%;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.logo img {
+    max-height: 50px;
+    max-width: 56px; /* Adjust the height of the logo as needed */
 }
 
 @keyframes gradient {
@@ -69,33 +111,6 @@ body {
     100% {
         transform: translateX(1);
     }
-}
-
-/* Styles for header */
-header {
-    margin: 0;
-    background-color: #9ba8ab52;
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: -webkit-body;
-    width: 100%;
-}
-
-.headline {
-    margin-left: 15px;
-    font-family:'Open Sans', sans-serif;
-}
-
-.logo {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.logo img {
-    max-height: 50px;
-    max-width: 56px; /* Adjust the height of the logo as needed */
 }
 
 nav ul {
