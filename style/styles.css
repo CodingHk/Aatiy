@@ -1,3 +1,11 @@
+/* Override the visibility rule */
+.__web-inspector-hide-shortcut__,
+.__web-inspector-hide-shortcut__ *,
+.__web-inspector-hidebefore-shortcut__::before,
+.__web-inspector-hideafter-shortcut__::after {
+    visibility: visible !important;
+}
+
 body {
     /* This one is on testing phase
     margin: 0px;
@@ -85,6 +93,7 @@ body {
 
 /* Styles for header */
 header {
+    visibility: visible !important;
     margin: 0;
     background-color: #9ba8ab52;
     padding: 8px;
@@ -96,13 +105,18 @@ header {
 }
 
 .headline {
-    margin-left: 15px;
-    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
 }
 
-.logo {
+.logo a {
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 18%;
+    height: 100%;
+    display: block;
     font-size: 20px;
-    font-weight: bold;
+    color: #ffffff;
+    font-style: normal;
 }
 
 .logo img {
@@ -181,7 +195,7 @@ footer ul li a {
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -199,19 +213,28 @@ footer ul li a {
 
 .about-card {
     padding: 20px;
-    background-color: #f0f0f0;
+    text-align: center;
+    background-color: #f0f0f09e;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(202 239 230);
+}
+
+.about-card img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center horizontally */
 }
 
 .about-card h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 32px;
 }
 
 .about-card p {
     margin: 0;
     text-align: center;
+    font-size: 18px;
+    font-family: fangsong;
 }
 
 .services {
@@ -225,7 +248,7 @@ footer ul li a {
 .service-card {
     flex: 0 1 calc(50% - 20px);
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f09e;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(202 239 230);
     display: flex; /* Set service card as flex container */
@@ -234,13 +257,12 @@ footer ul li a {
     justify-content: center; /* Center vertically */
 }
 
-.service-card h2 {
-    margin-bottom: 10px;
-}
-
 .service-card p {
     margin: 0;
-    text-align: center; /* Center text */
+    font-size: 18px;
+    font-family: fangsong;
+    text-align: center;
+    font-weight: 600;
 }
 
 
@@ -261,8 +283,10 @@ form {
 
 input, textarea {
     margin-bottom: 20px;
+    text-align: match-parent;
     padding: 10px;
     width: 100%;
+    border-radius: 15px 15px 15px 15px; 
 }
 
 button[type="submit"] {
