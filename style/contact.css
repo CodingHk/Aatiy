@@ -80,12 +80,13 @@ body {
 header {
     margin: 0;
     background-color: #9ba8ab52;
-    padding: 27px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: system-ui;
-    width: 100%;
+    width: 100%; /* Set header width to 100% */
+    height: 60px;
 }
 
 .headline {
