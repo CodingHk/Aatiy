@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.scrollDist{
+  background: black; 
+  overflow-x:hidden;
+  overflow-y:scroll;
+  font-family: 'Montserrat', sans-serif;
+  font-size:90px;
+  width:100%;
+  height:200%;
+  position:absolute;
+}
+
+svg {
+  position:fixed;
+}
