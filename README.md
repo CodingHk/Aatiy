@@ -5,3 +5,7 @@ v0.1.0
 
 cc [Moniaar](<https://github.com/Moniaar>) and
 [Solomon](<https://github.com/SolomonChidera/>)
+
+### What is Aatiy?
+Aatiy is a fintech application that is been develop to clear the problem faced
+by so many africans and other people when trying to purchase things online
