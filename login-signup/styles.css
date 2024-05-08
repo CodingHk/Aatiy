@@ -83,7 +83,7 @@ form{
 }
 .field input{
     outline: none;
-    padding: 0 15px;
+    padding: 0 2px;
     border: 1px solid#CACACA;
 }
 .field input:focus{
