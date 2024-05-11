@@ -28,6 +28,6 @@ cc [Moniaar](<https://github.com/Moniaar>) and
 [Solomon](<https://github.com/SolomonChidera/>)
  
 ### Related projects :
-
+https://github.com/Moniaar/AirBnB_clone_v2
 
 ### Licensing :
