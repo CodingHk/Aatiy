@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
+/* This is the css code that make the animaction move whenver you scroll */
 .scrollDist{
   background: black; 
   overflow-x:hidden;
