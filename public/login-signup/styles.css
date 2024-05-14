@@ -27,6 +27,8 @@ body {
     padding: 10px;
     font-size: 70px;
 }
+
+/* The container class of the login/sign up page */
 .container{
     height: 100vh;
     width: 100%;
@@ -56,6 +58,8 @@ body {
     opacity: 0;
     pointer-events: none;
 }
+
+/* The form header which is the logo */
 header{
     font-size: 28px;
     font-weight: 600;
@@ -72,6 +76,7 @@ form{
     margin-top: 20px;
     border-radius: 6px;
 }
+/* where the user will input thier name */
 .field input,
 .field button{
     height: 100%;
