@@ -1,7 +1,7 @@
 # Aatiy
 This is the first version of a banking system that is going to help a lot of people in Africa and extend globally to the horizon! :) 
 
-- Take a sneak peek of our minimal frontend design!:
+- Take a sneak peek of our minimalistic frontend design!:
 ### Landing page layout:
   ![image](https://github.com/CodingHk/Aatiy/assets/139129370/d204ecd4-6917-4faa-b687-0b65a6d6de90)
   Based on simplicity and having lots of transparent cards because we think it's cool :)!:
@@ -11,7 +11,7 @@ Quick reachout to clients directly through our emails:
 
 ### What is Aatiy?
 Aatiy is a fintech application that is been develop to clear the problem faced
-by so many africans and other people when trying to purchase things online. 
+by so many africans and other people when trying to purchase things online. During December of last year, one of the founders of this project faced a problem while trying to activate his card to purchase a service online. The local bank wasn't able to resolve his issue, and we figured that this is not only a problem faced by 1 person, and that it may have been caused by restricted rules or behaviors by certain local banks. In order to give the opportunity to all people out there to open an account and be able to purchase what they want, we will work on our own virtual bank, that can give you the freedom to build your own card kingdom, an give you access to any service you may want to join in the world without much restrictions or additional fees! :). 
 
 
 ## Deployed site: Go to your favorite browser and take a look!:): https://aatiy.web.app
@@ -27,6 +27,9 @@ Omnia Ahmed (Moniaar): https://www.linkedin.com/in/moniaar15/
 
 ### Usage:
 Please take into consideration that this is a static frontend version of the first release. Hence, in the future you will get the opportunity to sign with different card options and choose between various types of payment methods. Aatiy is your virtual bank between your hands, within a split of seconds!. "This will be updated once we finish working on the backend of it". 
+
+---
+
 You can either go to the website in your favorite browser or download it in you local machine to study the code by doing the following steps:
 1. Clone the code into your terminal
 2. Run the following to be able to view it in your local machine: ``` python3 -m http.server 5000 ```. You can also use ``` python3 -m http.server 5000 ``` if you want.
