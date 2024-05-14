@@ -8,6 +8,7 @@ var cw = window.innerWidth,
     waveY = 0,
     w = 0;
 
+// This function is taking care of the source of this animation done by the W3 website, along with the base colours using JQuery
 for (var w=0; w<nWaves; w++) {
     var p = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
     waves.push(p);
@@ -22,6 +23,8 @@ gsap.timeline({defaults:{duration:1}, delay:0.9})
 
 gsap.ticker.add(drawWave);
 
+// This function is handling the duration of the animation whenver you scroll, you will see
+// a rounded shape that can perform multiple colors based on white
 function drawWave(t) { 
   if (waveY!=-$(window).scrollTop()) gsap.to(window, {duration:1, waveY:Math.round($(window).scrollTop())});
   
